@@ -99,6 +99,7 @@ it could deliver a result that is of the same type.
 
 `This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
 `
+
 -------------------------------------------
 ## Dependency Inversion Principle
 
