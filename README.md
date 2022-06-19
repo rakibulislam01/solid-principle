@@ -17,7 +17,6 @@ The SOLID principles are:
 
 ## Single-Responsibility Principle
 
--------------------------------------------
 
 **Single-responsibility Principle (SRP) states:**
 
@@ -37,13 +36,12 @@ of creating some nice result to be shown to the stakeholders instead.
 
 **Goal:**
 
-This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other 
-unrelated behaviours.
+`This principle aims to separate behaviours so that if bugs arise as a result of your change, it won’t affect other 
+unrelated behaviours.`
 
 -------------------------------------------
 ## Open-Closed Principle
 
--------------------------------------------
 **Open-closed Principle (OCP) states:**
 
 > Objects or entities should be open for extension but closed for modification. 
@@ -54,12 +52,12 @@ unrelated behaviours.
 
 **Goal:**
 
-This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to 
-avoid causing bugs wherever the Class is being used.
+`This principle aims to extend a Class’s behaviour without changing the existing behaviour of that Class. This is to 
+avoid causing bugs wherever the Class is being used.`
+
 -------------------------------------------
 ## Liskov Substitution Principle
 
--------------------------------------------
 **Liskov Substitution Principle states:**
 
 > A subclass must be substitutable for its super-class.
@@ -81,14 +79,13 @@ it could deliver a result that is of the same type.
 
 **Goal:**
 
-This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.
-
+`This principle aims to enforce consistency so that the parent Class or its child Class can be used in the same way without any errors.
+`
 
 -------------------------------------------
-
 ## The Interface Segregation Principle
 
--------------------------------------------
+
 **Interface segregation principle states:**
 
 > A client should never be forced to implement an interface that it doesn’t use, or clients shouldn’t be forced to 
@@ -99,12 +96,12 @@ This principle aims to enforce consistency so that the parent Class or its child
 ### Example: [Interface Segregation Principle](https://github.com/heykarimoff/solid.python/blob/master/4.isp.py)
 
 **Goal:**
-This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
 
+`This principle aims at splitting a set of actions into smaller sets so that a Class executes ONLY the set of actions it requires.
+`
 -------------------------------------------
 ## Dependency Inversion Principle
 
--------------------------------------------
 **Dependency inversion principle states:**
 
 > High-level modules should not depend on low-level modules. Both should depend on the abstraction.
@@ -130,8 +127,8 @@ It also says that both the Class and the interface should not know how the tool 
 
 **Goal:**
 
-This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
-
+`This principle aims at reducing the dependency of a high-level Class on the low-level Class by introducing an interface.
+`
 
 ### References:
 
